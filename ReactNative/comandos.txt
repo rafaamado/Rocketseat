@@ -1,0 +1,21 @@
+// configurar ambiente:
+https://docs.rocketseat.dev/ambiente-react-native/introducao
+
+// iniciar projeto
+react-native init hunt
+
+// na pasta do aplicativo, rodar comando para instalar app no emulador
+react-native run-android
+
+// inicializar metro bundler
+react-native start
+
+// instalar navigation
+//yarn add react-navigation@2.18.3
+yarn add react-navigation
+
+yarn add axios
+
+//
+yarn add react-native-webview
+react-native link

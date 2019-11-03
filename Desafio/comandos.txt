@@ -1,0 +1,37 @@
+yarn init
+
+yarn add @babel/cli
+yarn add @babel/preset-env
+yarn add @babel/core
+
+//criar arquivo .babelrc 
+//editar package.json adicionar script  dev
+  "scripts": {
+    "dev": "babel ./main.js -o bundle.js -w"
+  }
+
+// rodar o script configurado no package.json
+yarn dev  
+
+
+
+
+
+// Adicionar webpack
+yarn add webpack -D
+yarn add webpack-cli -D
+
+// criar arquivo webpack.config.js
+
+yarn add babel-loader -D
+
+// script dev: webpack --mode=development -w
+
+
+yarn add webpack-dev-server -D
+
+yarn dev -- iniciar servidor
+
+
+// gerar bundle para deploy prod
+webpack --mode=production 

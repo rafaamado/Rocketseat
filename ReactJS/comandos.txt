@@ -1,0 +1,15 @@
+// instalando react na máquina
+
+npm install -g create-react-app
+
+// criar projeto
+create-react-app huntweb
+
+// script inicia projeto
+npm start
+
+// adicionar axios no projeto -- webservice
+yarn add axios
+
+// navegacao rotas
+yarn add react-router-dom

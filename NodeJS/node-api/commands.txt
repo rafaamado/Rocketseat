@@ -1,0 +1,8 @@
+// Subir servidor nodemon
+npm run dev
+
+// paginacao retorno api
+npm install mongoose-paginate
+
+// instalacao cors - permitir acesso API de outros dominios
+npm install cors

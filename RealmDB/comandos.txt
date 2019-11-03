@@ -1,0 +1,24 @@
+react-native init realmdbgithub
+
+react-native run-android
+
+yarn add axios
+
+yarn add react-navigation
+yarn add react-native-gesture-handler
+
+
+// npm install --save realm
+yarn add realm@3.2.0 
+yarn add react-native-linear-gradient react-native-vector-icons
+yarn link
+
+
+npm install --save styled-components
+
+
+// lib retornar tamanho da status bar
+yarn add react-native-status-bar-height
+
+
+parei 36:42
