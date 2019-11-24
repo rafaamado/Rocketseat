@@ -48,8 +48,8 @@ export default class Slides extends React.Component{
 
         return (
             imgs.map( (img, index) => (
-                <div key={img.number} className="mySlides fade" style={{display: index+1 == slideIndex ? 'block' : 'none' }}>            
-                    <div className="numbertext">{img.number + '/' + imgs.length}</div>
+                <div key={index} className="mySlides fade" style={{display: index+1 == slideIndex ? 'block' : 'none' }}>            
+                    <div className="numbertext">{(index+1) + '/' + imgs.length}</div>
                     <img src={img.image} style={{width: '100%'}}/>
                     <div className="text">{img.text}</div>
                 </div>)
