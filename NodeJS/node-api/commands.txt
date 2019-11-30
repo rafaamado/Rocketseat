@@ -1,3 +1,17 @@
+// inicializar projeto
+npm init -y
+
+//instalar express
+npm install express
+
+// executa o script server.js
+node server.js
+
+// instalar nodemon
+npm install -D nodemon
+
+//configurar em package.json adicionar em scripts: "dev" : "nodemon server.js"
+
 // Subir servidor nodemon
 npm run dev
 
