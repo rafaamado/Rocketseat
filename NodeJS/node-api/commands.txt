@@ -15,6 +15,9 @@ npm install -D nodemon
 // Subir servidor nodemon
 npm run dev
 
+// require-dir
+npm install require-dir
+
 // paginacao retorno api
 npm install mongoose-paginate
 
